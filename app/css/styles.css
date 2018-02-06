@@ -243,13 +243,13 @@ h4 {
       position: absolute;
       width: 308px;
       height: 318px;
-      top: 0;
-      right: -312px;
+      top: -318px;
+      right: 0;
       background: #FFFFFF;
       z-index: 999;
       transition: all 250ms ease; }
       .sub-menu.is-open {
-        right: 0; }
+        top: 0; }
       .sub-menu .cancel {
         display: block; }
       .sub-menu div {

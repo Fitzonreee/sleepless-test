@@ -75,13 +75,13 @@
     position: absolute;
     width: 308px;
     height: 318px;
-    top: 0;
-    right: -312px;
+    top: -318px;
+    right: 0;
     background: $white;
     z-index: 999;
     transition: all 250ms ease;
     &.is-open {
-      right: 0;
+      top: 0;
     }
     .cancel {
       display: block;
