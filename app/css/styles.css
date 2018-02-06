@@ -314,8 +314,9 @@ footer {
   footer a {
     font-size: 0.75em;
     color: #4A4A4A; }
-  footer .bump-small {
-    margin-top: 1.65em; }
+  @media screen and (max-width: 39.9375em) {
+    footer .bump-small {
+      margin-top: 1.65em; } }
   @media screen and (min-width: 40em) {
     footer .bump-large {
       margin-top: 1.65em; } }
