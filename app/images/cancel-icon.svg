@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="308" height="318"></rect>
+        <filter x="-2.3%" y="-1.6%" width="104.5%" height="104.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Homepage-R3---Menu-Expanded" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1379.000000, -35.000000)">
+        <g id="Group-17-Copy" transform="translate(1132.000000, 0.000000)">
+            <g id="Rectangle-13">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-16" transform="translate(249.000000, 37.000000)" stroke="#619EB3" stroke-linecap="square" stroke-width="2">
+                <path d="M0,0 L11,11" id="Line-Copy-7"></path>
+                <path d="M0,0 L11,11" id="Line-Copy-7" transform="translate(5.500000, 5.500000) scale(-1, 1) translate(-5.500000, -5.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

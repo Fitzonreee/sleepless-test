@@ -1,0 +1,179 @@
+/** --- Variables ---- **/
+$lightBlue: #B1D2DB;
+$white: #FFFFFF;
+$darkGray: #4A4A4A;
+$darkBlue: #619EB3;
+$lightGray: #F3F3F3;
+$mediumGray: #9B9B9B;
+
+@media screen and (min-width: 40em) {
+
+}
+
+
+@media screen and (min-width: 64em) {
+
+}
+
+/** --- Global ---- **/
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin-bottom: 0.25em;
+  text-transform: uppercase;
+  font-size: 1.65em;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-size: 1.15em;
+}
+
+/** --- Helpers ---- **/
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+.v-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-stack {
+    flex-direction: column;
+  }
+}
+
+.light { color: $white }
+.dark {
+  &-blue { color: $darkBlue }
+  &-gray { color: $darkGray }
+  &-medium { color: $mediumGray }
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-block {
+  display: block;
+  margin: 0 auto;
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/** --- Components ---- **/
+.button {
+  background-color: $darkBlue;
+  color: $white;
+  padding: 1em 2.5em;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.underline {
+  width: 4em;
+  height: 4px;
+  background: $lightBlue;
+  margin-bottom: 2em;
+}
+
+/** --- Links---- **/
+.wrap-links {
+  ul {
+    list-style-type: none;
+    li {
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+/** --- Testimonials + Request Consultation ---- **/
+.testimonials {
+  min-height: 40vh;
+  background-image: url('../images/ocean-background.png');
+}
+
+.request-consultation {
+  background-color: $lightGray;
+  .content-wrap {
+    @media screen and (min-width: 40em) {
+      width: 50%;
+    }
+    @media screen and (min-width: 64em) {
+      width: 40%;
+    }
+  }
+}
+
+.testimonials,
+.request-consultation {
+  padding: 4.375em 0;
+  .button {
+    margin-top: 1.5em;
+  }
+}
+
+/** --- Video ---- **/
+.video {
+  min-height: 60vh;
+  background-color: $lightGray;
+  padding: 6em 0;
+  .content-wrap {
+    width: 90%;
+    margin: 2.5em auto 0 auto;
+  }
+  .v-center-stack {
+    padding-top: 3em;
+    @media screen and (min-width: 40em) {
+      padding-top: 0;
+    }
+    p {
+      margin-top: 0.75em;
+      color: $darkGray;
+    }
+  }
+  span {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: $darkBlue;
+  }
+}
+
+/** --- Certs---- **/
+.certifications {
+  border-bottom: 2px solid $lightGray;
+  padding: 2em;
+  .v-center {
+    flex-direction: column;
+    @media screen and (min-width: 40em) {
+      flex-direction: row;
+    }
+  }
+  div {
+    padding: 1em;
+  }
+  .byline p {
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 0.5em 0 0 0;
+  }
+}
